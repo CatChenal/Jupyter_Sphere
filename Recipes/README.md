@@ -36,18 +36,6 @@ The next Markdown cell contains this HTML code:
   </figcaption>
 </figure>
 
-<div class="alert alert-info"><p style="font-size:1.2em"><b>Info: </b><br>&emsp;&emsp;* img.src can be local<br>&emsp;&emsp;* img.title attribute holds the tooltip text</p></div>
-
-<figure style="display:inline-block; text-align:center">
-  <img src="images/Finley.JPG" 
-       alt="x"
-       style="display:block; width:600px; height:400px;"
-       title="John Finley Walk">
-  <figcaption style="color:teal; font-weight:bold; font-family: Arial, Helvetica, sans-serif;">
-             Figure 2 (local) - <a href="https://en.wikipedia.org/wiki/John_Huston_Finley">John Finley</a>
-  </figcaption>
-</figure>
-
 ***
 ## Notebooks:
 [1_Jupyter and Markdown Tricks.ipnyb](https://nbviewer.jupyter.org/github/CatChenal/Jupyter_Sphere/blob/master/Recipes/1_Jupyter_and_Markdown_Tricks.ipynb)
