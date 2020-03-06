@@ -53,5 +53,5 @@ The next Markdown cell contains this HTML code:
 [1_Jupyter and Markdown Tricks.ipnyb](https://nbviewer.jupyter.org/github/CatChenal/Jupyter_Sphere/blob/master/Recipes/1_Jupyter_and_Markdown_Tricks.ipynb)
 > Contains functions to insert div blocks with variables along with call examples and a few UTF-8 codes for Geometric Shapes & ANSI escape sequences.
 
-[2_Exclude large files from Git repo.ipynb](https://nbviewer.jupyter.org/github/CatChenal/Jupyter_Sphere/blob/master/Recipes/2_Exclude large files from Git repo.ipynb)
+[2_Exclude_large_files_from_Git_repo.ipynb](https://nbviewer.jupyter.org/github/CatChenal/Jupyter_Sphere/blob/master/Recipes/2_Exclude_large_files_from_Git_repo.ipynb)
 > Contains my recipe to programmatically update `.git/info/exclude` file to exclude files that exceed GitHub limit.
