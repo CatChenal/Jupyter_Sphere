@@ -9,7 +9,7 @@ Now, with the JupyterLab Template extension in my current environment (dsml), I 
 Note that each environment could have its own template...
 
 Once the extension is successfully installed, the Launcher tab will display a new icon under the Notebook section:
-![Launcher with template](Launcher_with_template.png "New Template button!")
+![Launcher with template](images/Launcher_with_template.png "New Template button!")
 
 Clicking on the new template button will display the contents of the extension Templates folder for the picking!
 Neat!

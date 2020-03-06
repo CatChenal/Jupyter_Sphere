@@ -39,7 +39,7 @@ The next Markdown cell contains this HTML code:
 <div class="alert alert-info"><p style="font-size:1.2em"><b>Info: </b><br>&emsp;&emsp;* img.src can be local<br>&emsp;&emsp;* img.title attribute holds the tooltip text</p></div>
 
 <figure style="display:inline-block; text-align:center">
-  <img src="Finley.JPG" 
+  <img src="images/Finley.JPG" 
        alt="x"
        style="display:block; width:600px; height:400px;"
        title="John Finley Walk">
