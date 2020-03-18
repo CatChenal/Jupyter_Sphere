@@ -43,3 +43,19 @@ The next Markdown cell contains this HTML code:
 
 [2_Exclude_large_files_from_Git_repo.ipynb](https://nbviewer.jupyter.org/github/CatChenal/Jupyter_Sphere/blob/master/Recipes/2_Exclude_large_files_from_Git_repo.ipynb)
 > Contains my recipe to programmatically update `.git/info/exclude` file to exclude files that exceed GitHub limit.
+
+[3_Displaying_Images_with_Captions.ipynb](https://nbviewer.jupyter.org/github/CatChenal/Jupyter_Sphere/blob/master/Recipes/3_Displaying_Images_with_Captions.ipynb)
+> The modular version of the \<figure\> insertion example above.  
+    
+[4_Plotting_Matplotlib_Colormaps.ipynb](https://nbviewer.jupyter.org/github/CatChenal/Jupyter_Sphere/blob/master/Recipes/4_Plotting_Matplotlib_Colormaps.ipynb)
+> Code to obtain this plot:
+<figure style="display:flex; flex-flow:column; max-width:1300px; ">
+      <img src="images/mpl_colormaps.png" 
+         alt="x"
+         style="display:block; max-height:650px; "
+         title="Matplotlib color maps by category"
+      >
+      <figcaption style="color:teal; font-weight:bold; text-align:center; font-family:Arial, Helvetica, sans-serif; ">
+         Figure 1 - Matplotlib color maps by category (using gridspec)
+      </figcaption>
+</figure>

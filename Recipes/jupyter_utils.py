@@ -21,6 +21,7 @@ def is_lab_notebook():
     return any(re.search('jupyter-lab-script', x)
                for x in psutil.Process().parent().cmdline())
 
+
 def ipy_set_next_input(cell_contents, replace_cell):
     if replace_cell:
         shell = get_ipython()
