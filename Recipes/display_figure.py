@@ -24,8 +24,10 @@ display_figure(fname, style_dict, caption_dict, img_title='pic from wikipedia')
 from IPython.display import HTML
 
 
-def display_figure(img_path_or_url, style_dict, caption_dict,
-                   img_title='', return_html_str=True):
+def display_figure(img_path_or_url, style_dict,
+                   caption_dict, img_title='', 
+                   return_html_str=True,
+                   caption_on_top=False):
     """
     style_dict example:
        {'figure': {'display':'inline-block', 'text-align':'center'},
@@ -69,18 +71,33 @@ def display_figure(img_path_or_url, style_dict, caption_dict,
     cap_number = caption_dict.get('number')
     caption_text = caption_dict.get('caption')
         
-    html = f"""
-      <figure style="{fig_style}">
-      <img src="{img_path_or_url}" 
-         alt="x"
-         style="{img_style}"
-         title="{img_title}"
-      >
-      <figcaption style="{cap_style}">
-         Figure {cap_number} - {caption_text}
-      </figcaption>
-    </figure>
-    """
+    if caption_on_top:
+        html = f"""
+          <figure style="{fig_style}">
+           <figcaption style="{cap_style}">
+             Figure {cap_number} - {caption_text}
+           </figcaption>
+
+           <img src="{img_path_or_url}" 
+                alt="x"
+                style="{img_style}"
+                title="{img_title}"
+           >
+          </figure>
+        """
+    else:
+        html = f"""
+          <figure style="{fig_style}">
+           <img src="{img_path_or_url}" 
+                alt="x"
+                style="{img_style}"
+                title="{img_title}"
+           >
+           <figcaption style="{cap_style}">
+             Figure {cap_number} - {caption_text}
+           </figcaption>
+          </figure>
+        """
     if return_html_str:
         return html
     else:
