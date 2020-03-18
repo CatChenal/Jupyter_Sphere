@@ -50,12 +50,12 @@ The next Markdown cell contains this HTML code:
 [4_Plotting_Matplotlib_Colormaps.ipynb](https://nbviewer.jupyter.org/github/CatChenal/Jupyter_Sphere/blob/master/Recipes/4_Plotting_Matplotlib_Colormaps.ipynb)
 > Code to obtain this plot:
 <figure style="display:flex; flex-flow:column; max-width:1300px; ">
-      <img src="images/mpl_colormaps.png" 
-         alt="x"
-         style="display:block; max-height:650px; "
-         title="Matplotlib color maps by category"
-      >
-      <figcaption style="color:teal; font-weight:bold; text-align:center; font-family:Arial, Helvetica, sans-serif; ">
-         Figure 1 - Matplotlib color maps by category (using gridspec)
-      </figcaption>
+ <figcaption style="color:teal; font-weight:bold; text-align:center; font-family:Arial, Helvetica, sans-serif; ">
+             Figure 1 - Matplotlib color maps by category (using gridspec)
+ </figcaption>
+ <img src="images/mpl_colormaps.png" 
+      alt="x"
+      style="display:block; max-height:750px; "
+      title="Matplotlib color maps by category"
+ >
 </figure>
